@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="GLANZ Wellness Hub - Premium hair care products for nourishing, repairing, and promoting healthy hair growth. Discover our luxury shampoos, hair masks, therapy oils, and scalp massagers.">
+    <title>GLANZ Wellness Hub | Premium Hair Care Solutions</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">
+                <img src="images/logo.png" alt="GLANZ Wellness Hub Logo">
+            </a>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home" class="nav-link" data-i18n="nav_home">Home</a></li>
+                <li><a href="#about" class="nav-link" data-i18n="nav_about">About</a></li>
+                <li><a href="#products" class="nav-link" data-i18n="nav_products">Products</a></li>
+                <li><a href="#benefits" class="nav-link" data-i18n="nav_benefits">Benefits</a></li>
+                <li><a href="#bundles" class="nav-link" data-i18n="nav_bundles">Bundles</a></li>
+                <li><a href="#contact" class="nav-link" data-i18n="nav_contact">Contact</a></li>
+            </ul>
+            <button class="lang-switcher" id="lang-switcher" aria-label="Switch language">
+                <span class="lang-code" id="current-lang">EN</span>
+            </button>
+            <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero" id="home">
+        <div class="hero-bg"></div>
+        <div class="hero-content">
+            <div class="hero-badge" data-i18n="hero_badge">Premium Hair Care</div>
+            <h1 class="hero-title">
+                <span class="hero-title-line" data-i18n="hero_title_1">Unlock Your</span>
+                <span class="hero-title-line accent" data-i18n="hero_title_2">Natural Radiance</span>
+            </h1>
+            <p class="hero-subtitle" data-i18n="hero_subtitle">Experience the luxury of professional hair care with
+                GLANZ Wellness Hub. Our scientifically formulated products nourish, repair, and transform your hair from
+                within.</p>
+            <div class="hero-cta">
+                <a href="#products" class="btn btn-primary" data-i18n="hero_btn_primary">Explore Products</a>
+                <a href="#bundles" class="btn btn-secondary" data-i18n="hero_btn_secondary">View Bundles</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="images/product-trio-01.jpg" alt="GLANZ Product Collection">
+        </div>
+        <div class="hero-scroll">
+            <span data-i18n="hero_scroll">Scroll to discover</span>
+            <div class="scroll-indicator"></div>
+        </div>
+    </header>
+
+    <!-- Trust Badges Section -->
+    <div class="trust-badges">
+        <div class="container">
+            <div class="trust-grid">
+                <div class="trust-item">
+                    <svg viewBox="0 0 24 24" fill="none" class="trust-icon" stroke="currentColor" stroke-width="2">
+                        <path
+                            d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
+                    </svg>
+                    <span data-i18n="trust_1">Cruelty Free</span>
+                </div>
+                <div class="trust-item">
+                    <svg viewBox="0 0 24 24" fill="none" class="trust-icon" stroke="currentColor" stroke-width="2">
+                        <path
+                            d="M12 2L2 7l10 5 10-5-10-5zm0 9l2.5-1.25L12 8.5l-2.5 1.25L12 11zm0 2.5l-5-2.5-5 2.5L12 22l10-8.5-5-2.5-5 2.5z" />
+                    </svg>
+                    <span data-i18n="trust_2">100% Organic</span>
+                </div>
+                <div class="trust-item">
+                    <svg viewBox="0 0 24 24" fill="none" class="trust-icon" stroke="currentColor" stroke-width="2">
+                        <path
+                            d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z" />
+                    </svg>
+                    <span data-i18n="trust_3">Paraben Free</span>
+                </div>
+                <div class="trust-item">
+                    <svg viewBox="0 0 24 24" fill="none" class="trust-icon" stroke="currentColor" stroke-width="2">
+                        <path
+                            d="M12 22c1.1 0 2-.9 2-2h-4c0 1.1.9 2 2 2zm6-6v-5c0-3.07-1.63-5.64-4.5-6.32V4c0-.83-.67-1.5-1.5-1.5s-1.5.67-1.5 1.5v.68C7.64 5.36 6 7.92 6 11v5l-2 2v1h16v-1l-2-2zm-2 1H8v-6c0-2.48 1.51-4.5 4-4.5s4 2.02 4 4.5v6z" />
+                    </svg>
+                    <span data-i18n="trust_4">Sulfate Free</span>
+                </div>
+                <div class="trust-item">
+                    <svg viewBox="0 0 24 24" fill="none" class="trust-icon" stroke="currentColor" stroke-width="2">
+                        <path
+                            d="M9 11.75c-.69 0-1.25.56-1.25 1.25s.56 1.25 1.25 1.25 1.25-.56 1.25-1.25-.56-1.25-1.25-1.25zm6 0c-.69 0-1.25.56-1.25 1.25s.56 1.25 1.25 1.25 1.25-.56 1.25-1.25-.56-1.25-1.25-1.25zM12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8 0-.29.02-.58.05-.86 2.36-1.05 4.23-2.98 5.21-5.37C11.07 8.33 14.05 10 17.42 10c.78 0 1.53-.09 2.25-.26.21 2.37-.47 4.87-2.14 6.94C15.86 18.53 14.07 19.66 12 20z" />
+                    </svg>
+                    <span data-i18n="trust_5">Dermatologist Tested</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="section-label" data-i18n="about_label">About GLANZ</div>
+                <h2 class="section-title"><span data-i18n="about_title_1">Where Science Meets</span> <span
+                        class="accent" data-i18n="about_title_2">Luxury</span></h2>
+                <p class="about-text" data-i18n="about_text_1">GLANZ Wellness Hub was born from a passion for
+                    transforming hair care into a luxurious ritual. Our products combine cutting-edge hair science with
+                    premium natural ingredients to deliver visible results you can feel.</p>
+                <p class="about-text" data-i18n="about_text_2">Every bottle is crafted with care, designed to address
+                    specific hair concerns while providing an indulgent sensory experience. From anti-hair loss
+                    solutions to deep keratin repair, we\'ve got your hair journey covered.</p>
+                <div class="about-stats">
+                    <div class="stat">
+                        <span class="stat-number" data-i18n="about_stat_1_number">500ml</span>
+                        <span class="stat-label" data-i18n="about_stat_1_label">Premium Formulas</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number" data-i18n="about_stat_2_number">100%</span>
+                        <span class="stat-label" data-i18n="about_stat_2_label">Satisfaction Focused</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number" data-i18n="about_stat_3_number">3+</span>
+                        <span class="stat-label" data-i18n="about_stat_3_label">Targeted Solutions</span>
+                    </div>
+                </div>
+            </div>
+            <div class="about-image">
+                <img src="images/shampoo-mask-duo-01.jpg" alt="GLANZ Shampoo and Hair Mask">
+                <div class="about-image-accent"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products" id="products">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-label" data-i18n="products_label">Our Collection</div>
+                <h2 class="section-title"><span data-i18n="products_title_1">Premium Hair Care</span> <span
+                        class="accent" data-i18n="products_title_2">Products</span></h2>
+                <p class="section-subtitle" data-i18n="products_subtitle">Discover our carefully curated range of
+                    professional-grade hair care solutions</p>
+            </div>
+
+            <div class="products-grid">
+                <!-- Product 1: Hair Loss Nourishing Shampoo -->
+                <article class="product-card">
+                    <div class="product-image">
+                        <img src="images/hair-loss-shampoo-01.jpg" alt="GLANZ Hair Loss Nourishing Shampoo">
+                        <div class="product-overlay">
+                            <span class="product-tag" data-i18n="product_1_tag">Best Seller</span>
+                        </div>
+                    </div>
+                    <div class="product-content">
+                        <h3 class="product-title" data-i18n="product_1_title">Hair Loss Nourishing Shampoo</h3>
+                        <p class="product-description" data-i18n="product_1_desc">Anti-frizz formula designed to promote
+                            hair growth and repair damaged strands. Enriched with nourishing ingredients for stronger,
+                            healthier hair.</p>
+                        <div class="product-details">
+                            <span class="product-size" data-i18n="product_1_size">500ml</span>
+                            <a href="#" class="product-link" data-i18n="product_1_link">Learn More →</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Product 2: Keratin Repair Hair Mask -->
+                <article class="product-card">
+                    <div class="product-image">
+                        <img src="images/keratin-hair-mask-01.jpg" alt="GLANZ Keratin Repair Hair Mask">
+                        <div class="product-overlay">
+                            <span class="product-tag" data-i18n="product_2_tag">Deep Treatment</span>
+                        </div>
+                    </div>
+                    <div class="product-content">
+                        <h3 class="product-title" data-i18n="product_2_title">Keratin Repair Hair Mask</h3>
+                        <p class="product-description" data-i18n="product_2_desc">Intensive rejuvenation treatment for
+                            ultimate smoothness. Restores damaged hair with deep keratin infusion for silky, manageable
+                            locks.</p>
+                        <div class="product-details">
+                            <span class="product-size">500ml</span>
+                            <a href="#" class="product-link">Learn More →</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Product 3: Hair Therapy Oil -->
+                <article class="product-card featured">
+                    <div class="product-image">
+                        <img src="images/hair-therapy-oil-single-01.jpg" alt="GLANZ Hair Therapy Oil">
+                        <div class="product-overlay">
+                            <span class="product-tag" data-i18n="product_3_tag">Premium Oil</span>
+                        </div>
+                    </div>
+                    <div class="product-content">
+                        <h3 class="product-title" data-i18n="product_3_title">Hair Therapy Oil</h3>
+                        <p class="product-description" data-i18n="product_3_desc">Luxurious therapy oil that restores
+                            and promotes hair growth. Lightweight formula absorbs quickly, leaving hair nourished
+                            without greasiness.</p>
+                        <div class="product-details">
+                            <span class="product-size" data-i18n="product_3_size">250ml</span>
+                            <a href="#" class="product-link">Learn More →</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Product 4: Scalp Massager -->
+                <article class="product-card">
+                    <div class="product-image">
+                        <img src="images/scalp-massager-trio.jpg" alt="GLANZ Scalp Massager">
+                        <div class="product-overlay">
+                            <span class="product-tag" data-i18n="product_4_tag">Accessory</span>
+                        </div>
+                    </div>
+                    <div class="product-content">
+                        <h3 class="product-title" data-i18n="product_4_title">Silicone Scalp Massager</h3>
+                        <p class="product-description" data-i18n="product_4_desc">Ergonomic scalp massager designed to
+                            stimulate blood circulation and enhance product absorption. Available in elegant neutral
+                            tones.</p>
+                        <div class="product-details">
+                            <span class="product-size" data-i18n="product_4_size">3 Colors</span>
+                            <a href="#" class="product-link">Learn More →</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="benefits" id="benefits">
+        <div class="benefits-bg"></div>
+        <div class="container">
+            <div class="section-header light">
+                <div class="section-label" data-i18n="benefits_label">Why Choose GLANZ</div>
+                <h2 class="section-title"><span data-i18n="benefits_title_1">Experience the</span> <span class="accent"
+                        data-i18n="benefits_title_2">Difference</span></h2>
+            </div>
+            <div class="benefits-grid">
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path
+                                d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z" />
+                        </svg>
+                    </div>
+                    <h3 class="benefit-title" data-i18n="benefit_1_title">Premium Quality</h3>
+                    <p class="benefit-text" data-i18n="benefit_1_text">Every product is formulated with the finest
+                        ingredients, ensuring exceptional quality and visible results.</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path
+                                d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z" />
+                        </svg>
+                    </div>
+                    <h3 class="benefit-title" data-i18n="benefit_2_title">Gentle Formulas</h3>
+                    <p class="benefit-text" data-i18n="benefit_2_text">Carefully balanced formulas that are gentle on
+                        your hair and scalp while delivering powerful results.</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+                        </svg>
+                    </div>
+                    <h3 class="benefit-title" data-i18n="benefit_3_title">Scientifically Proven</h3>
+                    <p class="benefit-text" data-i18n="benefit_3_text">Backed by research and developed with advanced
+                        hair science to target specific concerns effectively.</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <circle cx="12" cy="12" r="10" />
+                            <path d="M12 6v6l4 2" />
+                        </svg>
+                    </div>
+                    <h3 class="benefit-title" data-i18n="benefit_4_title">Long-Lasting Results</h3>
+                    <p class="benefit-text" data-i18n="benefit_4_text">Experience transformative results that last, with
+                        consistent use revealing healthier, more vibrant hair.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Showcase Gallery -->
+    <section class="gallery">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-label" data-i18n="gallery_label">Gallery</div>
+                <h2 class="section-title"><span data-i18n="gallery_title_1">See Our Products in</span> <span
+                        class="accent" data-i18n="gallery_title_2">Action</span></h2>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item large">
+                    <img src="images/hair-therapy-oil-group-01.jpg" alt="GLANZ Hair Therapy Oil Collection">
+                </div>
+                <div class="gallery-item">
+                    <img src="images/shampoo-mask-duo-03.jpg" alt="GLANZ Shampoo and Mask Duo">
+                </div>
+                <div class="gallery-item">
+                    <img src="images/scalp-massager-collection-01.jpg" alt="GLANZ Scalp Massagers">
+                </div>
+                <div class="gallery-item wide">
+                    <img src="images/shampoo-collection.jpg" alt="GLANZ Shampoo Collection">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bundles Section -->
+    <section class="bundles" id="bundles">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-label" data-i18n="bundles_label">Complete Solutions</div>
+                <h2 class="section-title"><span data-i18n="bundles_title_1">Curated Hair Care</span> <span
+                        class="accent" data-i18n="bundles_title_2">Bundles</span></h2>
+                <p class="section-subtitle" data-i18n="bundles_subtitle">Get the complete GLANZ experience with our
+                    specially curated bundles</p>
+            </div>
+
+            <div class="bundles-grid">
+                <!-- Bundle 1 -->
+                <article class="bundle-card">
+                    <div class="bundle-image">
+                        <img src="images/shampoo-mask-duo-02.jpg" alt="GLANZ Duo Bundle">
+                    </div>
+                    <div class="bundle-content">
+                        <span class="bundle-tag" data-i18n="bundle_1_tag">Starter Set</span>
+                        <h3 class="bundle-title" data-i18n="bundle_1_title">The Essential Duo</h3>
+                        <p class="bundle-description" data-i18n="bundle_1_desc">Perfect for beginners. Includes our Hair
+                            Loss Nourishing Shampoo and Keratin Repair Hair Mask for a complete cleansing and treatment
+                            routine.</p>
+                        <ul class="bundle-includes">
+                            <li data-i18n="bundle_1_item_1">Hair Loss Nourishing Shampoo (500ml)</li>
+                            <li data-i18n="bundle_1_item_2">Keratin Repair Hair Mask (500ml)</li>
+                        </ul>
+                        <a href="#" class="btn btn-primary" data-i18n="bundle_1_btn">Shop Bundle</a>
+                    </div>
+                </article>
+
+                <!-- Bundle 2 -->
+                <article class="bundle-card featured">
+                    <div class="bundle-badge" data-i18n="bundle_2_badge">Most Popular</div>
+                    <div class="bundle-image">
+                        <img src="images/full-product-bundle-01.jpg" alt="GLANZ Complete Bundle">
+                    </div>
+                    <div class="bundle-content">
+                        <span class="bundle-tag" data-i18n="bundle_2_tag">Complete Care</span>
+                        <h3 class="bundle-title" data-i18n="bundle_2_title">The Ultimate Trio</h3>
+                        <p class="bundle-description" data-i18n="bundle_2_desc">Our most popular bundle. Complete your
+                            hair care ritual with all three core products plus two bonus scalp massagers for enhanced
+                            results.</p>
+                        <ul class="bundle-includes">
+                            <li>Hair Loss Nourishing Shampoo (500ml)</li>
+                            <li>Keratin Repair Hair Mask (500ml)</li>
+                            <li>Hair Therapy Oil (250ml)</li>
+                            <li data-i18n="bundle_2_item_4">2x Silicone Scalp Massagers</li>
+                        </ul>
+                        <a href="#" class="btn btn-primary">Shop Bundle</a>
+                    </div>
+                </article>
+
+                <!-- Bundle 3 -->
+                <article class="bundle-card">
+                    <div class="bundle-image">
+                        <img src="images/hair-therapy-oil-group-02.jpg" alt="GLANZ Oil Collection">
+                    </div>
+                    <div class="bundle-content">
+                        <span class="bundle-tag" data-i18n="bundle_3_tag">Treatment Focus</span>
+                        <h3 class="bundle-title" data-i18n="bundle_3_title">Intensive Therapy Pack</h3>
+                        <p class="bundle-description" data-i18n="bundle_3_desc">For those who need intensive treatment.
+                            Multiple bottles of our signature Hair Therapy Oil for extended treatment periods or to
+                            share with loved ones.</p>
+                        <ul class="bundle-includes">
+                            <li data-i18n="bundle_3_item_1">5x Hair Therapy Oil (250ml each)</li>
+                            <li data-i18n="bundle_3_item_2">Free Scalp Massager</li>
+                        </ul>
+                        <a href="#" class="btn btn-primary">Shop Bundle</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Before/After Slider Section -->
+    <section class="results">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-label" data-i18n="slider_title_1">Real Results</div>
+                <h2 class="section-title"><span data-i18n="slider_title_2">Real People</span></h2>
+                <p class="section-subtitle" data-i18n="slider_desc">See the transformation. Drag the slider to witness
+                    the power of GLANZ.</p>
+            </div>
+
+            <div class="slider-container">
+                <div class="image-comparison">
+                    <div class="image-wrapper before">
+                        <img src="images/before.png" alt="Before Treatment">
+                        <span class="label" data-i18n="slider_before">Before</span>
+                    </div>
+                    <div class="image-wrapper after">
+                        <img src="images/after.png" alt="After Treatment">
+                        <span class="label" data-i18n="slider_after">After</span>
+                    </div>
+                    <div class="handle">
+                        <div class="handle-line"></div>
+                        <div class="handle-circle">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z M8.59 7.41L10 6l6 6-6 6-1.41-1.41L13.17 12z" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-label" data-i18n="testimonials_label">Testimonials</div>
+                <h2 class="section-title"><span data-i18n="testimonials_title_1">What Our Customers</span> <span
+                        class="accent" data-i18n="testimonials_title_2">Say</span></h2>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">★★★★★</div>
+                    <p class="testimonial-text" data-i18n="testimonial_1_text">"After just two weeks of using the Hair
+                        Therapy Oil, I noticed significantly less hair fall. The quality is unlike anything I\'ve tried
+                        before. Truly premium!"</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">S</div>
+                        <div class="author-info">
+                            <span class="author-name" data-i18n="testimonial_1_name">Sarah M.</span>
+                            <span class="author-title" data-i18n="testimonial_1_title">Verified Buyer</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">★★★★★</div>
+                    <p class="testimonial-text" data-i18n="testimonial_2_text">"The Keratin Hair Mask transformed my
+                        damaged hair completely. It\'s so soft and manageable now. I\'ve recommended GLANZ to all my
+                        friends!"</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">A</div>
+                        <div class="author-info">
+                            <span class="author-name" data-i18n="testimonial_2_name">Amina K.</span>
+                            <span class="author-title" data-i18n="testimonial_2_title">Verified Buyer</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">★★★★★</div>
+                    <p class="testimonial-text" data-i18n="testimonial_3_text">"The entire product line feels so
+                        luxurious. From the elegant packaging to the amazing scent, every detail shows quality. My hair
+                        has never looked better!"</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">J</div>
+                        <div class="author-info">
+                            <span class="author-name" data-i18n="testimonial_3_name">John D.</span>
+                            <span class="author-title" data-i18n="testimonial_2_title">Verified Buyer</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="cta-bg"></div>
+        <div class="container">
+            <div class="cta-content">
+                <h2 class="cta-title" data-i18n="cta_title">Ready to Transform Your Hair?</h2>
+                <p class="cta-text" data-i18n="cta_text">Join thousands of satisfied customers who have discovered the
+                    GLANZ difference. Start your journey to healthier, more beautiful hair today.</p>
+                <div class="cta-buttons">
+                    <a href="#products" class="btn btn-primary btn-large" data-i18n="cta_btn_primary">Shop Now</a>
+                    <a href="#contact" class="btn btn-secondary btn-large" data-i18n="cta_btn_secondary">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="section-label" data-i18n="contact_label">Get in Touch</div>
+                    <h2 class="section-title"><span data-i18n="contact_title_1">We\'d Love to</span> <span
+                            class="accent" data-i18n="contact_title_2">Hear from You</span></h2>
+                    <p class="contact-text" data-i18n="contact_text">Have questions about our products or need
+                        personalized recommendations? Our team is here to help you find the perfect hair care solution.
+                    </p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                                <polyline points="22,6 12,13 2,6" />
+                            </svg>
+                            <span>hello@glanzwellness.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path
+                                    d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
+                            </svg>
+                            <span>+255 123 456 789</span>
+                        </div>
+                        <div class="contact-item">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+                                <circle cx="12" cy="10" r="3" />
+                            </svg>
+                            <span>Dar es Salaam, Tanzania</span>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-link" aria-label="Instagram">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
+                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+                                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Facebook">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Twitter">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path
+                                    d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name" data-i18n="form_name_label">Full Name</label>
+                        <input type="text" id="name" name="name" data-i18n-placeholder="form_name_placeholder"
+                            placeholder="Enter your name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email" data-i18n="form_email_label">Email Address</label>
+                        <input type="email" id="email" name="email" data-i18n-placeholder="form_email_placeholder"
+                            placeholder="Enter your email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject" data-i18n="form_subject_label">Subject</label>
+                        <input type="text" id="subject" name="subject" data-i18n-placeholder="form_subject_placeholder"
+                            placeholder="How can we help?">
+                    </div>
+                    <div class="form-group">
+                        <label for="message" data-i18n="form_message_label">Message</label>
+                        <textarea id="message" name="message" rows="5" data-i18n-placeholder="form_message_placeholder"
+                            placeholder="Tell us more..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full" data-i18n="form_submit">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <img src="images/logo.png" alt="GLANZ Wellness Hub" class="footer-logo">
+                    <p class="footer-tagline" data-i18n="footer_tagline">Premium hair care solutions for your wellness
+                        journey.</p>
+                </div>
+                <div class="footer-links">
+                    <h4 data-i18n="footer_quick_links">Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#products">Products</a></li>
+                        <li><a href="#bundles">Bundles</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4 data-i18n="footer_products">Products</h4>
+                    <ul>
+                        <li><a href="#" data-i18n="footer_product_1">Hair Loss Shampoo</a></li>
+                        <li><a href="#" data-i18n="footer_product_2">Keratin Hair Mask</a></li>
+                        <li><a href="#" data-i18n="footer_product_3">Hair Therapy Oil</a></li>
+                        <li><a href="#" data-i18n="footer_product_4">Scalp Massager</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4 data-i18n="footer_support">Support</h4>
+                    <ul>
+                        <li><a href="#" data-i18n="footer_support_1">FAQ</a></li>
+                        <li><a href="#" data-i18n="footer_support_2">Shipping Info</a></li>
+                        <li><a href="#" data-i18n="footer_support_3">Returns</a></li>
+                        <li><a href="#" data-i18n="footer_support_4">Privacy Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p data-i18n="footer_copyright">&copy; 2026 GLANZ Wellness Hub. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/255620410814" class="whatsapp-float" target="_blank" rel="noopener noreferrer"
+        aria-label="Chat on WhatsApp">
+        <svg viewBox="0 0 32 32" fill="currentColor">
+            <path
+                d="M16 0C7.164 0 0 7.164 0 16c0 2.825.736 5.48 2.024 7.792L0 32l8.416-2.208C10.656 31.072 13.248 32 16 32c8.836 0 16-7.164 16-16S24.836 0 16 0zm0 29.344c-2.528 0-4.896-.704-6.912-1.92l-.496-.288-5.152 1.352 1.376-5.024-.32-.512C2.72 20.896 2.016 18.528 2.016 16c0-7.728 6.288-14.016 14.016-14.016S30.048 8.272 30.048 16 23.76 30.016 16 30.016zm7.68-10.496c-.416-.208-2.464-1.216-2.848-1.36-.384-.128-.672-.192-.944.208-.272.384-1.056 1.36-1.296 1.632-.24.272-.48.304-.896.096-.416-.208-1.76-.648-3.36-2.064-1.232-1.104-2.064-2.464-2.304-2.88-.24-.416-.016-.64.176-.848.192-.192.416-.496.624-.752.208-.24.272-.416.416-.688.128-.272.064-.512-.032-.72-.096-.208-.944-2.272-1.296-3.104-.336-.8-.688-.688-.944-.704h-.8c-.272 0-.72.096-1.088.496-.384.416-1.456 1.424-1.456 3.472s1.488 4.032 1.696 4.304c.208.272 2.928 4.464 7.088 6.256.992.432 1.76.688 2.368.88.992.304 1.888.272 2.592.16.8-.112 2.464-.992 2.8-1.968.352-.976.352-1.808.256-1.968-.096-.176-.368-.272-.784-.48z" />
+        </svg>
+        <span class="whatsapp-tooltip" data-i18n="whatsapp_tooltip">Chat with us on WhatsApp</span>
+    </a>
+
+    <script src="translations.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
+<!-- WhatsApp Floating Button -->
+<a href="https://wa.me/255620410814" class="whatsapp-float" target="_blank" rel="noopener noreferrer"
+    aria-label="Chat on WhatsApp">
+    <svg viewBox="0 0 32 32" fill="currentColor">
+        <path
+            d="M16 0C7.164 0 0 7.164 0 16c0 2.825.736 5.48 2.024 7.792L0 32l8.416-2.208C10.656 31.072 13.248 32 16 32c8.836 0 16-7.164 16-16S24.836 0 16 0zm0 29.344c-2.528 0-4.896-.704-6.912-1.92l-.496-.288-5.152 1.352 1.376-5.024-.32-.512C2.72 20.896 2.016 18.528 2.016 16c0-7.728 6.288-14.016 14.016-14.016S30.048 8.272 30.048 16 23.76 30.016 16 30.016zm7.68-10.496c-.416-.208-2.464-1.216-2.848-1.36-.384-.128-.672-.192-.944.208-.272.384-1.056 1.36-1.296 1.632-.24.272-.48.304-.896.096-.416-.208-1.76-.648-3.36-2.064-1.232-1.104-2.064-2.464-2.304-2.88-.24-.416-.016-.64.176-.848.192-.192.416-.496.624-.752.208-.24.272-.416.416-.688.128-.272.064-.512-.032-.72-.096-.208-.944-2.272-1.296-3.104-.336-.8-.688-.688-.944-.704h-.8c-.272 0-.72.096-1.088.496-.384.416-1.456 1.424-1.456 3.472s1.488 4.032 1.696 4.304c.208.272 2.928 4.464 7.088 6.256.992.432 1.76.688 2.368.88.992.304 1.888.272 2.592.16.8-.112 2.464-.992 2.8-1.968.352-.976.352-1.808.256-1.968-.096-.176-.368-.272-.784-.48z" />
+    </svg>
+    <span class="whatsapp-tooltip" data-i18n="whatsapp_tooltip">Chat with us on WhatsApp</span>
+</a>
