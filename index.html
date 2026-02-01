@@ -533,6 +533,10 @@
                         <textarea id="message" name="message" rows="5" data-i18n-placeholder="form_message_placeholder"
                             placeholder="Tell us more..." required></textarea>
                     </div>
+                    <!-- Honeypot Field (Hidden from humans) -->
+                    <div style="display:none;">
+                        <input type="text" name="_gotcha">
+                    </div>
                     <button type="submit" class="btn btn-primary btn-full" data-i18n="form_submit">Send Message</button>
                 </form>
             </div>

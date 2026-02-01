@@ -173,8 +173,17 @@ document.addEventListener('DOMContentLoaded', function () {
             // Get form data
             const formData = new FormData(contactForm);
 
+            // Honeypot check
+            if (formData.get('_gotcha')) {
+                console.warn('Bot detected via honeypot');
+                contactForm.reset();
+                submitBtn.textContent = originalBtnText;
+                submitBtn.disabled = false;
+                return;
+            }
+
             // Add configuration for FormSubmit.co
-            formData.append('_captcha', 'false'); // Disable captcha
+            formData.append('_captcha', 'true'); // Re-enabled for bot protection
             formData.append('_template', 'table'); // Use table template
             formData.append('_subject', `GLANZ Contact Form: ${formData.get('subject') || 'New Message'}`);
 
