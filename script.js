@@ -235,10 +235,12 @@ document.addEventListener('DOMContentLoaded', function () {
     if (heroImage) {
         window.addEventListener('scroll', function () {
             const scrolled = window.pageYOffset;
-            const rate = scrolled * 0.3;
+            const rate = scrolled * 0.2; // Reduced from 0.3 for subtler effect
 
             if (scrolled <= window.innerHeight) {
-                heroImage.style.transform = `translateY(${rate}px)`;
+                // Limit the maximum translation to 100px to avoid hitting the trust badges
+                const limitedRate = Math.min(rate, 100);
+                heroImage.style.transform = `translateY(${limitedRate}px)`;
             }
         });
     }

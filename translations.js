@@ -180,12 +180,6 @@ const translations = {
         form_error: "Oops! Something went wrong. Please try again.",
         form_sending: "Sending...",
 
-        // Trust Badges
-        trust_1: "Cruelty Free",
-        trust_2: "100% Organic",
-        trust_3: "Paraben Free",
-        trust_4: "Sulfate Free",
-        trust_5: "Dermatologist Tested",
 
         // Before/After Slider
         slider_title_1: "Real Results",
@@ -390,12 +384,6 @@ const translations = {
         form_error: "Samahani! Kuna tatizo. Tafadhali jaribu tena.",
         form_sending: "Inatuma...",
 
-        // Trust Badges
-        trust_1: "Haimdhuru Mnyama",
-        trust_2: "Kiasili 100%",
-        trust_3: "Bila Paraben",
-        trust_4: "Bila Sulfate",
-        trust_5: "Imepimwa na Daktari",
 
         // Before/After Slider
         slider_title_1: "Matokeo Halisi",
