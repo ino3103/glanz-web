@@ -183,7 +183,7 @@ document.addEventListener('DOMContentLoaded', function () {
             }
 
             // Add configuration for FormSubmit.co
-            formData.append('_captcha', 'true'); // Re-enabled for bot protection
+            formData.append('_captcha', 'false'); // Recommended to be false for AJAX to avoid redirects
             formData.append('_template', 'table'); // Use table template
             formData.append('_subject', `GLANZ Contact Form: ${formData.get('subject') || 'New Message'}`);
 
