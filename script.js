@@ -243,6 +243,12 @@ document.addEventListener('DOMContentLoaded', function () {
 
     if (heroImage) {
         window.addEventListener('scroll', function () {
+            // Disable parallax on mobile/tablet for better performance and visibility
+            if (window.innerWidth < 1024) {
+                heroImage.style.transform = 'translateY(0)';
+                return;
+            }
+
             const scrolled = window.pageYOffset;
             const rate = scrolled * 0.2; // Reduced from 0.3 for subtler effect
 

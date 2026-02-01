@@ -1432,7 +1432,16 @@ section {
     .hero {
         grid-template-columns: 1fr;
         text-align: center;
-        padding-top: 100px;
+        padding-top: 120px;
+        padding-bottom: var(--spacing-md);
+        min-height: auto;
+    }
+
+    .hero-image {
+        margin-top: var(--spacing-md);
+        max-width: 90%;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .hero-content {
