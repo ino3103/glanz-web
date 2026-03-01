@@ -20,7 +20,7 @@ replacements = [
     (r'(<a href="#contact" class="nav-link")>Contact</a>', r'\1 data-i18n="nav_contact">Contact</a>'),
     
     # Hero Section
-    (r'(<div class="hero-badge")>Premium Hair Care</div>', r'\1 data-i18n="hero_badge">Premium Hair Care</div>'),
+    (r'(<div class="hero-badge")>Plant Based Hair Care</div>', r'\1 data-i18n="hero_badge">Plant Based Hair Care</div>'),
     (r'(<span class="hero-title-line")>Unlock Your</span>', r'\1 data-i18n="hero_title_1">Unlock Your</span>'),
     (r'(<span class="hero-title-line accent")>Natural Radiance</span>', r'\1 data-i18n="hero_title_2">Natural Radiance</span>'),
     (r'(<p class="hero-subtitle")>Experience the luxury.*?</p>', r'\1 data-i18n="hero_subtitle">Experience the luxury of professional hair care with GLANZ Wellness Hub. Our scientifically formulated products nourish, repair, and transform your hair from within.</p>'),
@@ -31,10 +31,10 @@ replacements = [
     # About Section
     (r'(<div class="section-label")>About GLANZ</div>', r'\1 data-i18n="about_label">About GLANZ</div>'),
     (r'<h2 class="section-title">Where Science Meets <span class="accent">Luxury</span></h2>', r'<h2 class="section-title"><span data-i18n="about_title_1">Where Science Meets</span> <span class="accent" data-i18n="about_title_2">Luxury</span></h2>'),
-    (r'(<p class="about-text")>GLANZ Wellness Hub was born.*?</p>', r'\1 data-i18n="about_text_1">GLANZ Wellness Hub was born from a passion for transforming hair care into a luxurious ritual. Our products combine cutting-edge hair science with premium natural ingredients to deliver visible results you can feel.</p>'),
+    (r'(<p class="about-text")>GLANZ Wellness Hub was born.*?</p>', r'\1 data-i18n="about_text_1">GLANZ Wellness Hub was born from a passion for transforming hair care into a luxurious ritual. Our products combine cutting-edge hair science with plant based natural ingredients to deliver visible results you can feel.</p>'),
     (r'(<p class="about-text")>Every bottle is crafted.*?</p>', r'\1 data-i18n="about_text_2">Every bottle is crafted with care, designed to address specific hair concerns while providing an indulgent sensory experience. From anti-hair loss solutions to deep keratin repair, we\'ve got your hair journey covered.</p>'),
     (r'(<span class="stat-number")>500ml</span>', r'\1 data-i18n="about_stat_1_number">500ml</span>'),
-    (r'(<span class="stat-label")>Premium Formulas</span>', r'\1 data-i18n="about_stat_1_label">Premium Formulas</span>'),
+    (r'(<span class="stat-label")>Plant Based Formulas</span>', r'\1 data-i18n="about_stat_1_label">Plant Based Formulas</span>'),
     (r'(<span class="stat-number")>100%</span>', r'\1 data-i18n="about_stat_2_number">100%</span>'),
     (r'(<span class="stat-label")>Satisfaction Focused</span>', r'\1 data-i18n="about_stat_2_label">Satisfaction Focused</span>'),
     (r'(<span class="stat-number")>3\+</span>', r'\1 data-i18n="about_stat_3_number">3+</span>'),
@@ -42,7 +42,7 @@ replacements = [
     
     # Products Section Headers
     (r'(<div class="section-label")>Our Collection</div>', r'\1 data-i18n="products_label">Our Collection</div>'),
-    (r'<h2 class="section-title">Premium Hair Care <span class="accent">Products</span></h2>', r'<h2 class="section-title"><span data-i18n="products_title_1">Premium Hair Care</span> <span class="accent" data-i18n="products_title_2">Products</span></h2>'),
+    (r'<h2 class="section-title">ORGANIC <span class="accent">Products</span></h2>', r'<h2 class="section-title"><span data-i18n="products_title_1">ORGANIC</span> <span class="accent" data-i18n="products_title_2">Products</span></h2>'),
     (r'(<p class="section-subtitle")>Discover our carefully curated.*?</p>', r'\1 data-i18n="products_subtitle">Discover our carefully curated range of professional-grade hair care solutions</p>'),
     
     # Product 1
@@ -58,7 +58,7 @@ replacements = [
     (r'(<p class="product-description")>Intensive rejuvenation treatment.*?</p>', r'\1 data-i18n="product_2_desc">Intensive rejuvenation treatment for ultimate smoothness. Restores damaged hair with deep keratin infusion for silky, manageable locks.</p>', 1),
     
     # Product 3
-    (r'(<span class="product-tag")>Premium Oil</span>', r'\1 data-i18n="product_3_tag">Premium Oil</span>'),
+    (r'(<span class="product-tag")>Organic Oil</span>', r'\1 data-i18n="product_3_tag">Organic Oil</span>'),
     (r'(<h3 class="product-title")>Hair Therapy Oil</h3>', r'\1 data-i18n="product_3_title">Hair Therapy Oil</h3>'),
     (r'(<p class="product-description")>Luxurious therapy oil.*?</p>', r'\1 data-i18n="product_3_desc">Luxurious therapy oil that restores and promotes hair growth. Lightweight formula absorbs quickly, leaving hair nourished without greasiness.</p>', 1),
     (r'(<span class="product-size")>250ml</span>', r'\1 data-i18n="product_3_size">250ml</span>', 1),
@@ -72,7 +72,7 @@ replacements = [
     # Benefits Section
     (r'(<div class="section-label")>Why Choose GLANZ</div>', r'\1 data-i18n="benefits_label">Why Choose GLANZ</div>'),
     (r'<h2 class="section-title">Experience the <span class="accent">Difference</span></h2>', r'<h2 class="section-title"><span data-i18n="benefits_title_1">Experience the</span> <span class="accent" data-i18n="benefits_title_2">Difference</span></h2>'),
-    (r'(<h3 class="benefit-title")>Premium Quality</h3>', r'\1 data-i18n="benefit_1_title">Premium Quality</h3>'),
+    (r'(<h3 class="benefit-title")>Plant Based Quality</h3>', r'\1 data-i18n="benefit_1_title">Plant Based Quality</h3>'),
     (r'(<p class="benefit-text")>Every product is formulated.*?</p>', r'\1 data-i18n="benefit_1_text">Every product is formulated with the finest ingredients, ensuring exceptional quality and visible results.</p>', 1),
     (r'(<h3 class="benefit-title")>Gentle Formulas</h3>', r'\1 data-i18n="benefit_2_title">Gentle Formulas</h3>'),
     (r'(<p class="benefit-text")>Carefully balanced formulas.*?</p>', r'\1 data-i18n="benefit_2_text">Carefully balanced formulas that are gentle on your hair and scalp while delivering powerful results.</p>', 1),
@@ -115,7 +115,7 @@ replacements = [
     # Testimonials Section
     (r'(<div class="section-label")>Testimonials</div>', r'\1 data-i18n="testimonials_label">Testimonials</div>'),
     (r'<h2 class="section-title">What Our Customers <span class="accent">Say</span></h2>', r'<h2 class="section-title"><span data-i18n="testimonials_title_1">What Our Customers</span> <span class="accent" data-i18n="testimonials_title_2">Say</span></h2>'),
-    (r'(<p class="testimonial-text")>"After just two weeks.*?</p>', r'\1 data-i18n="testimonial_1_text">"After just two weeks of using the Hair Therapy Oil, I noticed significantly less hair fall. The quality is unlike anything I\'ve tried before. Truly premium!"</p>', 1),
+    (r'(<p class="testimonial-text")>"After just two weeks.*?</p>', r'\1 data-i18n="testimonial_1_text">"After just two weeks of using the Hair Therapy Oil, I noticed significantly less hair fall. The quality is unlike anything I\'ve tried before. Truly organic!"</p>', 1),
     (r'(<span class="author-name")>Sarah M\.</span>', r'\1 data-i18n="testimonial_1_name">Sarah M.</span>', 1),
     (r'(<span class="author-title")>Verified Buyer</span>', r'\1 data-i18n="testimonial_1_title">Verified Buyer</span>', 1),
     (r'(<p class="testimonial-text")>"The Keratin Hair Mask.*?</p>', r'\1 data-i18n="testimonial_2_text">"The Keratin Hair Mask transformed my damaged hair completely. It\'s so soft and manageable now. I\'ve recommended GLANZ to all my friends!"</p>', 1),
@@ -146,14 +146,14 @@ replacements = [
     (r'(<button type="submit" class="btn btn-primary btn-full")>Send Message</button>', r'\1 data-i18n="form_submit">Send Message</button>'),
     
     # Footer
-    (r'(<p class="footer-tagline")>Premium hair care solutions.*?</p>', r'\1 data-i18n="footer_tagline">Premium hair care solutions for your wellness journey.</p>'),
+    (r'(<p class="footer-tagline")>Plant based hair care solutions.*?</p>', r'\1 data-i18n="footer_tagline">Plant based hair care solutions for your wellness journey.</p>'),
     (r'<h4>Quick Links</h4>', r'<h4 data-i18n="footer_quick_links">Quick Links</h4>', 1),
     (r'<h4>Products</h4>', r'<h4 data-i18n="footer_products">Products</h4>'),
     (r'<h4>Support</h4>', r'<h4 data-i18n="footer_support">Support</h4>'),
     (r'<a href="#">Hair Loss Shampoo</a>', r'<a href="#" data-i18n="footer_product_1">Hair Loss Shampoo</a>'),
     (r'<a href="#">Keratin Hair Mask</a>', r'<a href="#" data-i18n="footer_product_2">Keratin Hair Mask</a>'),
     (r'<a href="#">Hair Therapy Oil</a>', r'<a href="#" data-i18n="footer_product_3">Hair Therapy Oil</a>'),
-    (r'<a href="#">Scalp Massager</a>', r'<a href="#" data-i18n="footer_product_4">Scalp Massager</a>'),
+    (r'<a href="#">Scalp Brush</a>', r'<a href="#" data-i18n="footer_product_4">Scalp Brush</a>'),
     (r'<a href="#">FAQ</a>', r'<a href="#" data-i18n="footer_support_1">FAQ</a>'),
     (r'<a href="#">Shipping Info</a>', r'<a href="#" data-i18n="footer_support_2">Shipping Info</a>'),
     (r'<a href="#">Returns</a>', r'<a href="#" data-i18n="footer_support_3">Returns</a>'),

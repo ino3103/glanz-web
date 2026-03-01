@@ -13,7 +13,7 @@ const translations = {
         nav_contact: "Contact",
 
         // Hero Section
-        hero_badge: "Premium Hair Care",
+        hero_badge: "Plant Based Hair Care",
         hero_title_1: "Unlock Your",
         hero_title_2: "Natural Radiance",
         hero_subtitle: "Experience the luxury of professional hair care with GLANZ Wellness Hub. Our scientifically formulated products nourish, repair, and transform your hair from within.",
@@ -23,25 +23,36 @@ const translations = {
 
         // About Section
         about_label: "About GLANZ",
-        about_title_1: "Where Science Meets",
-        about_title_2: "Luxury",
-        about_text_1: "GLANZ Wellness Hub was born from a passion for transforming hair care into a luxurious ritual. Our products combine cutting-edge hair science with premium natural ingredients to deliver visible results you can feel.",
-        about_text_2: "Every bottle is crafted with care, designed to address specific hair concerns while providing an indulgent sensory experience. From anti-hair loss solutions to deep keratin repair, we've got your hair journey covered.",
-        about_stat_1_number: "500ml",
-        about_stat_1_label: "Premium Formulas",
-        about_stat_2_number: "100%",
-        about_stat_2_label: "Satisfaction Focused",
-        about_stat_3_number: "3+",
-        about_stat_3_label: "Targeted Solutions",
+        about_tagline: "Wellness and Beauty Rooted in Every Strand",
+        about_text_1: "GLANZ Wellness Hub was born from a simple yet powerful belief: that hair care should honor both beauty and wellness. What began as a passion for healthier hair evolved into a commitment to creating products that care deeply for the scalp, strengthening the hair, and elevate everyday routines into meaningful rituals. We exist at the intersection of wellness, science, and nature—creating plant-based, thoughtfully formulated hair care designed to support scalp health, encourage healthier hair growth, and restore balance from root to tip.",
+        about_text_2: "As the founder, my vision has always been intentional growth—developing hair care that is organic, gentle, effective, and rooted in thoughtful formulation. Every product reflects a dedication to quality, balance, and long-term hair health, guided by the understanding that true results come from consistency and care. Because true hair health is a practice, not a promise.",
+        about_text_3: "GLANZ is more than a brand; it is a philosophy of refinement, integrity, and purpose. We are committed to quality, transparency and sustainable growth. From ingredient selection to product development, every decision is guided by our dedication to excellence, wellness, and longevity. As we continue to expand, our focus remains clear: to build a trusted hair wellness brand that delivers excellence without compromise and creates lasting value for our community.",
+        about_thank_you: "Thank you for being part of this journey.",
+        about_founder: "— Founder, GLANZ Wellness Hub",
+
+        // Mission & Vision
+        mission_title: "Our Mission",
+        mission_text: "To create refined, plant-based hair care that supports scalp health, encourages healthier hair growth, and transforms everyday routines into elevated wellness rituals through thoughtful formulation and intentional care.",
+        vision_title: "Our Vision",
+        vision_text: "To become a globally recognized hair wellness brand known for blending nature-inspired ingredients with modern formulation principles—setting a new standard for luxury, integrity, and long-term hair health.",
+
+        // Values
+        values_title: "Our Values",
+        value_1_title: "Wellness First",
+        value_1_text: "We prioritize scalp health, balance, and long-term results in every formulation and decision.",
+        value_2_title: "Integrity & Trust",
+        value_2_text: "We believe trust is built through honesty, quality, and consistency—from ingredients to brand experience.",
+        value_3_title: "Sustainability & Excellence",
+        value_3_text: "We are committed to responsible practices and building a brand designed for longevity and global relevance.",
 
         // Products Section
         products_label: "Our Collection",
-        products_title_1: "Premium Hair Care",
-        products_title_2: "Products",
+        products_title_1: "ORGANIC",
+        products_title_2: "HAIR CARE PRODUCTS",
         products_subtitle: "Discover our carefully curated range of professional-grade hair care solutions",
 
         product_1_tag: "Best Seller",
-        product_1_title: "Hair Loss Nourishing Shampoo",
+        product_1_title: "Anti-Hair Loss Nourishing Shampoo",
         product_1_desc: "Anti-frizz formula designed to promote hair growth and repair damaged strands. Enriched with nourishing ingredients for stronger, healthier hair.",
         product_1_size: "500ml",
         product_1_link: "Learn More →",
@@ -52,14 +63,14 @@ const translations = {
         product_2_size: "500ml",
         product_2_link: "Learn More →",
 
-        product_3_tag: "Premium Oil",
+        product_3_tag: "Organic Oil",
         product_3_title: "Hair Therapy Oil",
         product_3_desc: "Luxurious therapy oil that restores and promotes hair growth. Lightweight formula absorbs quickly, leaving hair nourished without greasiness.",
         product_3_size: "250ml",
         product_3_link: "Learn More →",
 
         product_4_tag: "Accessory",
-        product_4_title: "Silicone Scalp Massager",
+        product_4_title: "Silicone Scalp Brush",
         product_4_desc: "Ergonomic scalp massager designed to stimulate blood circulation and enhance product absorption. Available in elegant neutral tones.",
         product_4_size: "3 Colors",
         product_4_link: "Learn More →",
@@ -69,7 +80,7 @@ const translations = {
         benefits_title_1: "Experience the",
         benefits_title_2: "Difference",
 
-        benefit_1_title: "Premium Quality",
+        benefit_1_title: "Plant Based Quality",
         benefit_1_text: "Every product is formulated with the finest ingredients, ensuring exceptional quality and visible results.",
 
         benefit_2_title: "Gentle Formulas",
@@ -123,7 +134,7 @@ const translations = {
         testimonials_title_1: "What Our Customers",
         testimonials_title_2: "Say",
 
-        testimonial_1_text: "After just two weeks of using the Hair Therapy Oil, I noticed significantly less hair fall. The quality is unlike anything I've tried before. Truly premium!",
+        testimonial_1_text: "After just two weeks of using the Hair Therapy Oil, I noticed significantly less hair fall. The quality is unlike anything I've tried before. Truly organic!",
         testimonial_1_name: "Sarah M.",
         testimonial_1_title: "Verified Buyer",
 
@@ -158,14 +169,14 @@ const translations = {
         form_submit: "Send Message",
 
         // Footer
-        footer_tagline: "Premium hair care solutions for your wellness journey.",
+        footer_tagline: "Plant based hair care solutions for your wellness journey.",
         footer_quick_links: "Quick Links",
         footer_products: "Products",
         footer_support: "Support",
-        footer_product_1: "Hair Loss Shampoo",
+        footer_product_1: "Anti-Hair Loss Shampoo",
         footer_product_2: "Keratin Hair Mask",
         footer_product_3: "Hair Therapy Oil",
-        footer_product_4: "Scalp Massager",
+        footer_product_4: "Scalp Brush",
         footer_support_1: "FAQ",
         footer_support_2: "Shipping Info",
         footer_support_3: "Returns",
@@ -216,7 +227,7 @@ const translations = {
         nav_contact: "Wasiliana",
 
         // Hero Section
-        hero_badge: "Huduma Bora ya Nywele",
+        hero_badge: "Huduma ya Nywele Inayotokana na Mimea",
         hero_title_1: "Fungua",
         hero_title_2: "Mwangaza Wako wa Asili",
         hero_subtitle: "Furahia anasa ya huduma ya kitaalamu ya nywele na GLANZ Wellness Hub. Bidhaa zetu zilizoundwa kisayansi hulisha, kurekebisha, na kubadilisha nywele zako kutoka ndani.",
@@ -226,26 +237,36 @@ const translations = {
 
         // About Section
         about_label: "Kuhusu GLANZ",
-        about_title_1: "Mahali Sayansi Inakutana na",
-        about_title_2: "Anasa",
-        about_title_2: "Anasa",
-        about_text_1: "GLANZ Wellness Hub ilizaliwa kutokana na shauku ya kubadilisha huduma ya nywele kuwa ibada ya kifahari. Bidhaa zetu zinachanganya sayansi ya kisasa ya nywele na viungo vya asili vya hali ya juu kutoa matokeo yanayoonekana unayoweza kuhisi.",
-        about_text_2: "Kila chupa imetengenezwa kwa uangalifu, imeundwa kushughulikia wasiwasi maalum wa nywele huku ikitoa uzoefu wa kujifurahisha. Kutoka kwa suluhisho za kupunguza upotevu wa nywele hadi ukarabati wa kina wa keratini, tumekufunika safari yako ya nywele.",
-        about_stat_1_number: "500ml",
-        about_stat_1_label: "Fomula Bora",
-        about_stat_2_number: "100%",
-        about_stat_2_label: "Lengo la Kuridhisha",
-        about_stat_3_number: "3+",
-        about_stat_3_label: "Suluhisho Maalum",
+        about_tagline: "Ustawi na Uzuri Uliozama Katika Kila Unywele",
+        about_text_1: "GLANZ Wellness Hub ilizaliwa kutokana na imani rahisi lakini yenye nguvu: kwamba huduma ya nywele inapaswa kuheshimu uzuri na ustawi. Kilichoanza kama shauku ya nywele zenye afya kilibadilika kuwa kujitolea kuunda bidhaa zinazojali sana ngozi ya kichwa, kuimarisha nywele, na kuinua taratibu za kila siku kuwa ibada zenye maana. Tunapatikana katika muungano wa ustawi, sayansi, na asili—tukiunda huduma ya nywele inayotokana na mimea, iliyoundwa kwa kufikiri ili kusaidia afya ya ngozi ya kichwa, kuhimiza ukuaji wa nywele zenye afya, na kurejesha usawa kutoka mzizi hadi ncha.",
+        about_text_2: "Kama mwanzilishi, maono yangu yamekuwa ukuaji wa makusudi—kuendeleza huduma ya nywele ambayo ni ya asili, laini, yenye ufanisi, na iliyojikita katika utengenezaji wa kufikiri. Kila bidhaa inaonyesha kujitolea kwa ubora, usawa, na afya ya muda mrefu ya nywele, ikiongozwa na uelewa kwamba matokeo ya kweli yanatokana na uthabiti na utunzaji. Kwa sababu afya ya kweli ya nywele ni mazoezi, si ahadi tu.",
+        about_text_3: "GLANZ ni zaidi ya chapa; ni falsafa ya uboreshaji, uadilifu, na kusudi. Tumejitolea kwa ubora, uwazi na ukuaji endelevu. Kutoka kwa uchaguzi wa viungo hadi maendeleo ya bidhaa, kila uamuzi unaongozwa na kujitolea kwetu kwa ubora, ustawi, na maisha marefu. Tunapoendelea kupanuka, lengo letu linabaki wazi: kujenga chapa ya ustawi wa nywele inayoaminika ambayo inatoa ubora bila maelewano na kuunda thamani ya kudumu kwa jamii yetu.",
+        about_thank_you: "Asante kwa kuwa sehemu ya safari hii.",
+        about_founder: "— Mwanzilishi, GLANZ Wellness Hub",
+
+        // Mission & Vision
+        mission_title: "Dhumuni Letu",
+        mission_text: "Kuunda huduma ya nywele iliyoboreshwa, inayotokana na mimea ambayo inasaidia afya ya ngozi ya kichwa, inahimiza ukuaji wa nywele zenye afya, na kubadilisha taratibu za kila siku kuwa ibada za ustawi wa hali ya juu kupitia utengenezaji wa kufikiri na utunzaji wa makusudi.",
+        vision_title: "Maono Yetu",
+        vision_text: "Kuwa chapa ya ustawi wa nywele inayotambulika kimataifa inayojulikana kwa kuchanganya viungo vilivyohamasishwa na asili na kanuni za kisasa za utengenezaji—tukiweka kiwango kipya cha anasa, uadilifu, na afya ya muda mrefu ya nywele.",
+
+        // Values
+        values_title: "Maadili Yetu",
+        value_1_title: "Ustawi Kwanza",
+        value_1_text: "Tunapa kipaumbele afya ya ngozi ya kichwa, usawa, na matokeo ya muda mrefu katika kila utengenezaji na uamuzi.",
+        value_2_title: "Uadilifu na Imani",
+        value_2_text: "Tunaamini imani inajengwa kupitia uaminifu, ubora, na uthabiti—kutoka kwa viungo hadi uzoefu wa chapa.",
+        value_3_title: "Uendelevu na Ubora",
+        value_3_text: "Tumejitolea kwa mazoea ya kuwajibika na kujenga chapa iliyoundwa kwa maisha marefu na umuhimu wa kimataifa.",
 
         // Products Section
         products_label: "Mkusanyiko Wetu",
-        products_title_1: "Bidhaa Bora za",
-        products_title_2: "Huduma ya Nywele",
+        products_title_1: "BIDHAA ASILIA ZA",
+        products_title_2: "HUDUMA YA NYWELE",
         products_subtitle: "Gundua safu yetu iliyochaguliwa kwa uangalifu ya suluhisho za huduma ya nywele za kiwango cha kitaalamu",
 
         product_1_tag: "Inayouzwa Zaidi",
-        product_1_title: "Shampoo ya Kulisha Kupunguza Upotevu",
+        product_1_title: "Anti-Hair Loss Nourishing Shampoo",
         product_1_desc: "Fomula ya kupambana na kuparuza iliyoundwa kukuza ukuaji wa nywele na kurekebisha tundu zilizoharibika. Imetajirisha na viungo vya kulisha kwa nywele zenye nguvu na afya.",
         product_1_size: "500ml",
         product_1_link: "Jifunze Zaidi →",
@@ -256,14 +277,14 @@ const translations = {
         product_2_size: "500ml",
         product_2_link: "Jifunze Zaidi →",
 
-        product_3_tag: "Mafuta Bora",
+        product_3_tag: "Mafuta Asilia",
         product_3_title: "Mafuta ya Tiba ya Nywele",
         product_3_desc: "Mafuta ya kifahari ya tiba yanayorejesha na kukuza ukuaji wa nywele. Fomula nyepesi inayofyonzwa haraka, ikiwacha nywele zilizolishwa bila kunona.",
         product_3_size: "250ml",
         product_3_link: "Jifunze Zaidi →",
 
         product_4_tag: "Kifaa",
-        product_4_title: "Kifaa cha Kusugua Kichwa cha Silikoni",
+        product_4_title: "Brush ya Kusugua Kichwa cha Silikoni",
         product_4_desc: "Kifaa cha kusugua kichwa cha ergonomic kilichoundwa kuchochea mzunguko wa damu na kuongeza ufyonzaji wa bidhaa. Kinapatikana kwa rangi nzuri za kawaida.",
         product_4_size: "Rangi 3",
         product_4_link: "Jifunze Zaidi →",
@@ -273,7 +294,7 @@ const translations = {
         benefits_title_1: "Furahia",
         benefits_title_2: "Tofauti",
 
-        benefit_1_title: "Ubora Bora",
+        benefit_1_title: "Ubora wa Asili",
         benefit_1_text: "Kila bidhaa imeundwa kwa viungo bora zaidi, kuhakikisha ubora wa kipekee na matokeo yanayoonekana.",
 
         benefit_2_title: "Fomula Laini",
@@ -327,7 +348,7 @@ const translations = {
         testimonials_title_1: "Wateja Wetu",
         testimonials_title_2: "Wanasema Nini",
 
-        testimonial_1_text: "Baada ya wiki mbili tu za kutumia Mafuta ya Tiba ya Nywele, niliangalia upungufu mkubwa wa kuanguka kwa nywele. Ubora ni tofauti na chochote nilichojaribu hapo awali. Kweli ni bora!",
+        testimonial_1_text: "Baada ya wiki mbili tu za kutumia Mafuta ya Tiba ya Nywele, niliangalia upungufu mkubwa wa kuanguka kwa nywele. Ubora ni tofauti na chochote nilichojaribu hapo awali. Kweli ni asilia!",
         testimonial_1_name: "Sarah M.",
         testimonial_1_title: "Mnunuzi Aliyethibitishwa",
 
@@ -362,14 +383,14 @@ const translations = {
         form_submit: "Tuma Ujumbe",
 
         // Footer
-        footer_tagline: "Suluhisho bora za huduma ya nywele kwa safari yako ya ustawi.",
+        footer_tagline: "Suluhisho za huduma ya nywele zinazotokana na mimea kwa safari yako ya ustawi.",
         footer_quick_links: "Viungo vya Haraka",
         footer_products: "Bidhaa",
         footer_support: "Msaada",
-        footer_product_1: "Shampoo ya Kupunguza Upotevu",
+        footer_product_1: "Anti-Hair Loss Shampoo",
         footer_product_2: "Barakoa ya Keratini",
         footer_product_3: "Mafuta ya Tiba ya Nywele",
-        footer_product_4: "Kifaa cha Kusugua Kichwa",
+        footer_product_4: "Brush ya Kusugua Kichwa",
         footer_support_1: "Maswali Yanayoulizwa Mara kwa Mara",
         footer_support_2: "Taarifa za Usafirishaji",
         footer_support_3: "Kurudisha",
