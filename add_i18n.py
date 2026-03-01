@@ -24,8 +24,8 @@ replacements = [
     (r'(<span class="hero-title-line")>Unlock Your</span>', r'\1 data-i18n="hero_title_1">Unlock Your</span>'),
     (r'(<span class="hero-title-line accent")>Natural Radiance</span>', r'\1 data-i18n="hero_title_2">Natural Radiance</span>'),
     (r'(<p class="hero-subtitle")>Experience the luxury.*?</p>', r'\1 data-i18n="hero_subtitle">Experience the luxury of professional hair care with GLANZ Wellness Hub. Our scientifically formulated products nourish, repair, and transform your hair from within.</p>'),
-    (r'(<a href="#products" class="btn btn-primary")>Explore Products</a>', r'\1 data-i18n="hero_btn_primary">Explore Products</a>'),
-    (r'(<a href="#bundles" class="btn btn-secondary")>View Bundles</a>', r'\1 data-i18n="hero_btn_secondary">View Bundles</a>'),
+    (r'(<a href="#products" class="btn btn-primary")>Explore the Collection</a>', r'\1 data-i18n="hero_btn_primary">Explore the Collection</a>'),
+    (r'(<a href="#about" class="btn btn-secondary")>Discover our Philosophy</a>', r'\1 data-i18n="hero_btn_secondary">Discover our Philosophy</a>'),
     (r'<span>Scroll to discover</span>', r'<span data-i18n="hero_scroll">Scroll to discover</span>'),
     
     # About Section

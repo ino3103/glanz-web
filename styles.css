@@ -960,6 +960,16 @@ section {
     text-align: center;
 }
 
+.results .section-title,
+.results .section-subtitle,
+.results .section-label {
+    color: var(--color-white) !important;
+}
+
+.results .section-title span.accent {
+    color: var(--color-gold) !important;
+}
+
 .slider-container {
     max-width: 800px;
     margin: 0 auto;

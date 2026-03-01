@@ -17,8 +17,8 @@ const translations = {
         hero_title_1: "Unlock Your",
         hero_title_2: "Natural Radiance",
         hero_subtitle: "Experience the luxury of professional hair care with GLANZ Wellness Hub. Our scientifically formulated products nourish, repair, and transform your hair from within.",
-        hero_btn_primary: "Explore Products",
-        hero_btn_secondary: "View Bundles",
+        hero_btn_primary: "Explore the Collection",
+        hero_btn_secondary: "Discover our Philosophy",
         hero_scroll: "Scroll to discover",
 
         // About Section
@@ -192,12 +192,13 @@ const translations = {
         form_sending: "Sending...",
 
 
-        // Before/After Slider
-        slider_title_1: "Real Results",
-        slider_title_2: "Real People",
-        slider_desc: "See the transformation. Drag the slider to witness the power of GLANZ.",
-        slider_before: "Before",
-        slider_after: "After",
+        // Results Section
+        results_label: "Real Results",
+        results_title_1: "See the",
+        results_title_2: "Transformation",
+        results_subtitle: "Drag the slider to witness the power of GLANZ.",
+        results_before: "Before",
+        results_after: "After",
 
         // FAQ Section
         faq_label: "Common Questions",
@@ -231,8 +232,8 @@ const translations = {
         hero_title_1: "Fungua",
         hero_title_2: "Mwangaza Wako wa Asili",
         hero_subtitle: "Furahia anasa ya huduma ya kitaalamu ya nywele na GLANZ Wellness Hub. Bidhaa zetu zilizoundwa kisayansi hulisha, kurekebisha, na kubadilisha nywele zako kutoka ndani.",
-        hero_btn_primary: "Chunguza Bidhaa",
-        hero_btn_secondary: "Angalia Vifurushi",
+        hero_btn_primary: "Chunguza Mkusanyiko",
+        hero_btn_secondary: "Gundua Falsafa Yetu",
         hero_scroll: "Sogeza chini kugundua",
 
         // About Section
@@ -406,12 +407,13 @@ const translations = {
         form_sending: "Inatuma...",
 
 
-        // Before/After Slider
-        slider_title_1: "Matokeo Halisi",
-        slider_title_2: "Watu Halisi",
-        slider_desc: "Ona mabadiliko. Sogeza mstari kushuhudia nguvu ya GLANZ.",
-        slider_before: "Kabla",
-        slider_after: "Baada",
+        // Results Section
+        results_label: "Matokeo Halisi",
+        results_title_1: "Ona",
+        results_title_2: "Mabadiliko",
+        results_subtitle: "Vuta kitelezi ili kushuhudia nguvu ya GLANZ.",
+        results_before: "Kabla",
+        results_after: "Baada",
 
         // FAQ Section
         faq_label: "Maswali ya Kawaida",
