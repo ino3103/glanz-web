@@ -118,7 +118,7 @@ const translations = {
         bundle_2_item_1: "Anti-Hair Loss Nourishing Shampoo (500ml)",
         bundle_2_item_2: "Keratin Repair Hair Mask (500ml)",
         bundle_2_item_3: "Hair Therapy Oil (250ml)",
-        bundle_2_item_4: "2x Silicone Scalp Massagers",
+        bundle_2_item_4: "2x Silicone Scalp Brush",
         bundle_2_btn: "Shop Bundle",
 
         bundle_3_tag: "Treatment Focus",
